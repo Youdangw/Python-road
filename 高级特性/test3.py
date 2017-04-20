@@ -26,8 +26,5 @@ print([s.lower() for s in L])
 # 使用内奸的isinstance函数可以判断一个变量是不是字符串
 
 L1 = ['Hello', 'World', 18, 'Apple',None]
-L2 = []
-for i in L1:
-    if isinstance(i, str):
-        L2.append(i.lower())
+L2 = [i.lower() for i in L1 if isinstance(i, str)]
 print(L2)
