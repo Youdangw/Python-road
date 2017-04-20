@@ -12,8 +12,9 @@ print(L)
 # ↑代替上面的代码   还可以加上if判断筛选出偶数的平方
 print([x * x for x in range(1,11)if x %2 ==0])
 
-pls = '1234567890'
+pls = '0123456789'
 print([a + b + c  for a in pls for b in pls for c in pls])
+print((a + b + c + d + e + f for a in pls for b in pls for c in pls for d in pls for e in pls for f in pls))
 
 d = {'x':'A','y':'B','z':'C'}
 print([k + '=' + v for k,v in d.items()])
