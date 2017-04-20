@@ -1,4 +1,4 @@
-# 切片
+# 切片 例题 实例
 L = list(range(100))
 print(L)
 
